@@ -3,8 +3,8 @@
 ##
 FROM node:19.4.0 AS npm
 WORKDIR /opt
-COPY package.json yarn.lock ./
-RUN yarn install
+COPY package.json yarn.lock package-lock.json ./
+RUN npm install
 
 ##
 ## BUILD BE ##

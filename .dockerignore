@@ -5,6 +5,7 @@
 !shadow-cljs.edn
 !deps.edn
 !resources
-!src/main/
+!src
 !package.json
 !yarn.lock
+!package-lock.json
