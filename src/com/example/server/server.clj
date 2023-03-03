@@ -47,7 +47,7 @@
 ;; NOTE It is enough to reload the pathom and this ns to get any Pathom changes live
 (defn start [] (run-server #'handler {:port 8009}))
 
-(defonce stop-fn (atom (start)))
+(defonce stop-fn (atom nil))
 
 (defn -main [& _]
-  (start))
+  (reset! stop-fn (start)))
