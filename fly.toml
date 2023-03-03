@@ -1,6 +1,6 @@
-# fly.toml file generated for fulcro-workshop on 2023-03-03T13:21:04-08:00
+# fly.toml file generated for aram-tmp on 2023-03-03T22:49:14+01:00
 
-app = "fulcro-workshop"
+app = "aram-tmp"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
